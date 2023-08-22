@@ -1,0 +1,14 @@
+.style{
+    display: flex;
+    
+}
+.style li{
+    margin: 30px;
+}
+.mudar{
+    display: flex;
+}
+.mudar li{
+    margin: 30px;
+    list-style-type: none;
+}
