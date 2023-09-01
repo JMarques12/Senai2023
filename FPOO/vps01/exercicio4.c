@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     int itens;
+    int i;
     
     printf("Quantos itens Jorge comprou?: ");
     scanf("%d", &itens);
@@ -14,7 +15,7 @@ int main() {
     char nomes[itens][50];
     float custos[itens];
 
-    for (int i = 0; i < itens; i++) {
+    for ( i = 0; i < itens; i++) {
         printf("Digite o nome do item #%d: ", i + 1);
         scanf("%s", nomes[i]);
         
@@ -27,12 +28,10 @@ int main() {
     scanf("%f", &lucro);
 
     printf("produto\t\tpreco :\n");
-    for (int i = 0; i < itens; i++) {
+    for ( i = 0; i < itens; i++){
+	 
         float venda = custos[i] + (custos[i] * lucro / 100.0);
         printf("%s\t\tR$ %.2f\n", nomes[i], venda);
         
     }
-    
-    return 0;
-}
-
+	}
