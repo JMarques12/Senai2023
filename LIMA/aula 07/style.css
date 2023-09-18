@@ -1,0 +1,84 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --vermelho: #FF0000;
+    --preto:#000000;
+    --Branco: #FFFFFF;
+}
+.navbar{
+    background-color: var(--vermelho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--preto);
+    height: 50vh;
+}
+.navbar div span{
+    font-size: 1.3rem;
+    padding: 30px;
+}
+
+headder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--vermelho);
+    color: var(--preto);
+    font-size: 1.4rem;
+}
+
+
+headder h1 span{
+    color: var(--branco);
+}
+.search{
+    background-image: url(images/search.png);
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search div{
+    background-color: rgba(255, 255, 255, .7);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search h3{
+    font-size: 1.7rem;
+}
+
+.search div input{
+    width: 250px;
+    padding: 5px;
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+main{
+    height: 63vh;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div img{
+    height: 450px;
+    border: 2px solid var(--preto);
+    border-radius: 100px 0 100px 0;
+    margin-right: 50px;
+}
