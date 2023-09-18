@@ -44,8 +44,10 @@ int main(){
 	printf("%.2f\n",m3);
 	printf("%.2f\n",m4);
 	printf("%.2f\n",m5);
-	printf("%.2f %.2f %.2f %.2f %.2f",c1,c2,c3,c4,c5);
+	printf("%.2f %.2f %.2f %.2f %.2f",c1,c2,c3,c4,c5);  
+	return 0;
 	}
+	
 	
 	
 
