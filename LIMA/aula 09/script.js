@@ -159,3 +159,16 @@ function salario(){
     }
 }
 salario()
+
+// Faça um programa que mostre na tela valores no intervalo entre 10 e 200;
+function contador(){
+    var contador
+    for(contador = 10; contador <=200; contador++)
+    console.log(contador)
+}
+// Faça um programa que mostre na tela valores no intervalo entre 200 e 10;
+function contador(){
+    var contador
+    for (contador = 200; contador >=10; contador--)
+        console.log(contador)
+}
