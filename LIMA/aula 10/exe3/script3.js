@@ -4,5 +4,5 @@ function calculo(){
     let salario = Number(document.getElementById('salario').value);
     let porcentagem = Number(document.getElementById('porcentagem').value);
     
-    document.querySelector('#result').innerHTML = `o valor do novo salario de 'nome' é: ${(porcentagem/100+1)*salario}`
+    document.querySelector('#result').innerHTML = `o valor do novo salario de ${nome} é: ${(porcentagem/100+1)*salario}`
 }
