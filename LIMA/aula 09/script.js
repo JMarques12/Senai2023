@@ -149,8 +149,9 @@ function preco(){
     console.log(preco);
 }
 preco()
-
-// Desenvolva um programa que leia o salário de um funcionário e o número de filhos. Se o salário for menor do que 2000 o funcionário receberá um salário família equivalente a 45 reais por filho. Apresente o salário final.
+console.log(
+"Desenvolva um programa que leia o salário de um funcionário e o número de filhos. Se o salário for menor do que 2000 o funcionário receberá um salário família equivalente a 45 reais por filho. Apresente o salário final."
+);
 function salario(){
     var salario = 2000, filhos = 3
     if(salario<2000){
@@ -166,9 +167,11 @@ function contador(){
     for(contador = 10; contador <=200; contador++)
     console.log(contador)
 }
+contador()
 // Faça um programa que mostre na tela valores no intervalo entre 200 e 10;
 function contador(){
     var contador
     for (contador = 200; contador >=10; contador--)
         console.log(contador)
 }
+contador()
