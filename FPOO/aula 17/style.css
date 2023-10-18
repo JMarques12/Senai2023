@@ -1,36 +1,20 @@
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #fafafa;
-  }
-   
-  .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-  }
-   
-  .card p {
-    color: #a3a5ae;
-    font-size: 16px;
-  }
-   
-  .image {
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
-  }
-  .blue {
-    border-left: 3px solid #4895ff;
-  }
-   
-  .green {
-    border-left: 3px solid #3bb54a;
-  }
-   
-  .red {
-    border-left: 3px solid #b3404a;
-  }
+body{
+  background: grey;
+}
+
+.card{
+  width: 250px;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid black;
+  background: red;
+  box-shadow: 5px 5px 15px rgba(0,0,0, .5);
+}
+
+.card h1{
+  text-align: center;
+}
+
+.model{
+  display: none;
+}

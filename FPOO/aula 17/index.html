@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salário</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+<center>
 <body>
-    <div class="row">
-      <div class="card green">
-        <h2></h2>
-        <p>Configure a monetização</p>
-        <img class="image" src="money.png" alt="money" />
-      </div>
- 
-      <div class="card blue">
-        <h2>Configurações</h2>
-        <p>Configure o seu sistema</p>
-        <img class="image" src="settings.png" alt="settings" />
-      </div>
- 
-      <div class="card red">
-        <h2>Artigos</h2>
-        <p>Crie e edite artigos</p>
-        <img class="image" src="article.png" alt="article" />
-      </div>
-    </div>
-  </body>
-    <script src="./script.js" ></script>
 
+    <form id="formPessoa">
+        <input type="text" id="nome" name="nome" placeholder="Digite um nome:">
+        <input type="number" id="salario" name="salario" placeholder="Digite um salario:">
+        <input type="submit" value="Enviar" onclick="">
+    </form>
+
+    <div class="cards">
+        <div class="card model">
+            <h1 id="nomeValor">Nome</h1>
+            <h4 id="salarioValor">1000</h4>
+            <h4 id="salarioBase">1000</h4>
+            <h4 id="salarioLiquido">1000</h4>
+            <button>X</button>
+        </div>
+    </div>
+    
+</body>
+</center>
+<script src="pessoa.js"></script>
+<script src="viewController.js"></script>
 </html>
