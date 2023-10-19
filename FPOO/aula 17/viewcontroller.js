@@ -11,17 +11,19 @@ function criarCard(){
     const cards = document.querySelector('.cards');
     let card = document.querySelector('.card');
     cards.innerHTML = '';
+    cards.appendChild(card);
     
     pessoas.forEach(pessoa => {
         let cardNew = card.cloneNode(true);
         cardNew.classList.remove('model');
-        cardNew.querySelector("#nomeValor").innerHTML = pessoa.nome;
-        cardNew.querySelector("#salarioValor").innerHTML = pessoa.salario;
-        cardNew.querySelector("#salarioBase").innerHTML = pessoa.salarioBase;
-        cardNew.querySelector("#salarioLiquido").innerHTML = pessoa.salarioLiquido;
+        cardNew.querySelector("#nomeValor").innerHTML =  pessoa.nome;
+        cardNew.querySelector("#salarioValor").innerHTML = `Salario: ${pessoa.salario}`;
+        cardNew.querySelector("#salarioBase").innerHTML = `Salario Base: ${pessoa.salarioBase}`;
+        cardNew.querySelector("#salarioLiquido").innerHTML = `Salario Liquido: ${pessoa.salarioLiquido}`;
         cards.appendChild(cardNew);
     })
 }
-function removecard(){
-
+function removecard(e){
+    e.parentNode.remove();
+    pessoas.splice(e.parentNode,1);
 }
