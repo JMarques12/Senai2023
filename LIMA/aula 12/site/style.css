@@ -1,0 +1,121 @@
+body {
+    background-color: #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-bottom: 3px solid black;
+}
+
+main {
+    margin-left: 200px;
+
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+}
+
+.busca input {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.busca img {
+    transform: translate(-30px);
+    width: 20px;
+
+}
+
+.dinheiro {
+    display: flex;
+    gap: 20px;
+}
+
+.dinheiro .dolar spam {
+    color: red;
+}
+
+.dinheiro .Euro spam {
+    color: chartreuse;
+}
+
+.dinheiro .Pedreira spam {
+    color: aqua;
+}
+
+.logos img {
+    width: 100px;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+.logos {
+    justify-content: center;
+    display: flex;
+    margin-inline: 430px;
+}
+
+.lupas img {
+
+    width: 50px;
+    height: 30px;
+}
+
+.lupas {
+
+    display: flex;
+}
+
+.bidens img {
+    margin: 60px;
+    width: 300px;
+    height: 180px;
+}
+
+.bidens {
+    display: flex;
+    margin-top: 10px;
+}
+
+.vacinas img {
+    margin: 60px;
+    width: 300px;
+    height: 180px;
+}
+
+.vacinas {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.indias img {
+    margin: 60px;
+    width: 300px;
+    height: 180px;
+}
+
+.indias {
+    display: flex;
+    margin-top: 10px;
+    
+}
+    
+
+.text {
+    margin-top: 30px;
+
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+}
