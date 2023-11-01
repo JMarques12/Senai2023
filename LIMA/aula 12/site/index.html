@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Broxa News</title>
 </head>
-<header>
-    <nav>
-        <div class="dinheiro">
-            <p class="dolar">Dólar<spam>5,45</spam>
-            </p>
-            <p class="Euro"> Euro <spam>6,58</spam>
-            </p>
-            <p class="Pedreira"> Pedreira <spam>17°C</spam>
-            </p>
-        </div>
-
-        <div class="logos">
-            <img src="logo.png">
-        </div>
-
-
-
-
-        <div class="busca">
-            <input type="search" placeholder="buscar...">
-            <img src="lupa.png">
-        </div>
-
-    </nav>
-</header>
-
 <body>
+    <header>
+        <div>
+            <span style="margin-left: 10px; color: red;"><b>Dólar</b> 5,45</span>
+            <span style="margin-left: 10px; color: green"><b>Euro</b> 6,58</span>
+            <span style="margin-left: 10px; color: cyan"><b>Pedreira</b> 17°C</span>
+        </div>
+
+        <div>
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Buscar...">
+            <img src="lupa.png" alt="Lupa" class="lupa">
+        </div>
+    </header>
+
     <main>
+
         <div class="noticias">
-        <div class="bidens">
-            <img src="biden.jpg">
-            <div class="text">
-                <h1>Biden apresenta plano trilionário financiado por impostos aos ricos.</h1>
-                <p>28/04/2021 09h00</p>
+            <div>
+                <img src="biden.jpg">
+                <span>
+                    <h2>
+                        Biden apresenta plano trilionário financiado por impostos aos ricos.
+                    </h2>
+                    <p>
+                        28/04/2021 09h00
+                    </p>
+                </span>
+            </div>
+
+            <div>
+                <img src="vacina.jpg">
+                <span>
+                    <h2>
+                        Brasil atinge marca de 30 milhões de vacinados contra a Covid com o menos uma dose.
+                    </h2>
+                    <p>
+                        28/04/2021 09h30
+                    </p>
+                </span>
+            </div>
+            <div>
+                <img src="india.jpg">
+                <span>
+                    <h2>
+                        Índia bate novo recorde mundial de casos de Covid e se torna o 4° país a superar 200 mil mortes.
+                    </h2>
+                    <p>
+                        28/04/2021 10h00
+                    </p>
+                </span>
             </div>
         </div>
-        <div class="vacinas">
-            <img src="vacina.jpg">
-            <div class="text">
-                <h2>Brasil atinge marca de 30 milhões de vacinados conta a Covid com ao menos uma dese. </h2>
-                <p>28/04/2021 09h30</p>
-            </div>
-            <div class="indias">
-                <img src="india.jpg">
-                <div class="text">
-                    <h3>Índia bate novo recorde mundial de casos de Covid e se torna o 4° país a superar as 200 mil
-                        mortes.</h3>
-                    <p>28/04/2021 10h00</p>
-                </div>
+
+        <div class="temas">
+            <h3>Temas em alta</h3>
+            <p>#1 Covid-19</p>
+            <p>Pandemia</p>
+            <p>Canal de Suez</p>
+            <p>índia</p>
+            <p>Big Brother Brasil</p>
         </div>
 
     </main>
+    
 </body>
-
 </html>
