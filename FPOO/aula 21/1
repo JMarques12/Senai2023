@@ -1,0 +1,39 @@
+class decoracao{
+    constructor(tipo){
+        this.tipo = tipo;
+    }
+}
+
+class livro {
+    constructor(título) {
+        this.título = título;
+    }
+}
+
+class estante {
+    constructor() {
+        this.decoracoes = [];
+        this.livros = [];
+    }
+
+        addLivro(livro) {
+            this.livros.push(livro)
+        }
+
+        addDecoracao(decoracao) {
+            this.decoracoes.push(decoracao);
+        }
+    }
+            const estanteVazia = new Estante();
+            const estanteComLivros = new Estante();
+            const estanteComDecoracoes = new Estante();
+
+            estanteComLivros.addLivro(new Livro("livro1"));
+            estanteComLivros.addLivro(new Livro("livro2"));
+            estanteComLivros.addDecoracao(new Decoracao("livro3"));
+
+            estantecomDecoracoes.addDecoracao(new decoracao("decoracao1"));
+            estantecomDecoracoes.addDecoracao(new decoracao("decoracao2"));
+
+            console.log("Livros na estante com livros:", estanteComLivros.livros);
+            console.log("decoracoes na estante com decorações:", estanteComDecoracoes.decoracoes);
